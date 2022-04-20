@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 import math
 import cmd
+import ssl
 
 def calc(x):#функция для вычисления y
   return str(math.log(abs(12*math.sin(int(x)))))
