@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 import math
-
+111
 def calc(x):#функция для вычисления y
   return str(math.log(abs(12*math.sin(int(x)))))
 
